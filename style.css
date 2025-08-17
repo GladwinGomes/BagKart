@@ -1,0 +1,561 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Navbar Section */
+.navbar {
+    top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #111111;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 50px;
+    width: 100px;
+}
+
+.hamburger-btn i,
+.close-button i {
+    color: white;
+    font-size: 24px;
+}
+
+.navbar .offcanvas {
+    background-color: #111111;
+    color: white;
+}
+
+.navbar .menu {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar .menu li {
+    padding: 11px 32px;
+}
+
+.navbar .menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navbar .logo {
+    padding-right: 12px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    gap: 40px;
+}
+
+.nav li {
+    padding: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+
+/* Circle Section */
+.circle {
+    padding: 40px 120px 20px;
+    font-family: sans-serif;
+    background-color: white;
+    color: #111111;
+}
+
+.circle-head {
+    padding: 25px 0px;
+    text-align: center;
+}
+
+.circle-head h2 {
+    font-weight: bold;
+    margin: 0;
+}
+
+.circle-circles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0px 0px;
+}
+
+.circle-circles div{
+    padding: 10px;
+}
+
+.circle-circles img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid #111111;
+    transition: 0.3s ease-in-out;
+}
+
+.circle-circles img:hover {
+    transform: scale(1.10);
+}
+
+.circle-circles p {
+    font-weight: bold;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* Product Section */
+.product {
+    padding: 40px 120px;
+    font-family: sans-serif;
+    background-color: white;
+    color: #111111;
+}
+
+.product-head {
+    padding: 25px 0px;
+    text-align: center;
+}
+
+.product-head h2 {
+    font-weight: bold;
+    margin: 0;
+}
+
+.product-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 0px 40px;
+    gap: 26px;
+}
+
+.product-products img {
+    height: 300px;
+    width: 300px;
+    border-radius: 5%;
+    transition: 0.3s ease-in-out;
+}
+
+.product-products p {
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+    width: 300px;
+    height: auto;
+}
+
+
+/* Info Section */
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 120px 0px;
+    gap: 50px;
+    background-color: white;
+    color: #111111;
+}
+
+.info img {
+    width: 700px;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+/* Feature Section */
+.feature {
+    font-family: sans-serif;
+    padding: 40px 120px;
+    background-color: white;
+    color: white;
+}
+
+.feature-head {
+    text-align: center;
+    padding: 25px 0px;
+    color: #111111;
+}
+
+.feature-head h2 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.feature-features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.feature-features .f {
+    display: flex;
+    justify-content: center;
+    background-color: #111111;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.feature-features img {
+    height: 50px;
+    width: 50px;
+}
+
+.feature-features .f h3 {
+    margin: 0px 0px 10px;
+}
+
+.feature-features .f p {
+    margin: 0;
+    padding: 0px 40px 0px 0px;
+}
+
+
+/* Whatsapp */
+.whatsapp {
+    position: fixed;
+    right: 3vh;
+    bottom: 3vh;
+    height: 60px;
+    width: 60px;
+    background-color: #25D366;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.whatsapp img {
+    height: 50px;
+    width: 50px;
+}
+
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: #111111;
+    padding: 40px 20px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 120px;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    text-align: center;
+    min-width: 250px;
+    margin-bottom: 50px;
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.footer-column p,
+.footer-column ul {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ddd;
+    margin: 0;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    display: inline-block;
+    transition: color 0.3s;
+}
+
+.icons1 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.icons1 a {
+    margin: 0 5px;
+    color: #ffffff;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+
+@media (max-width: 1300px) {
+    .circle {
+        padding: 40px 15px 20px;
+    }
+
+    .product {
+        padding: 40px 15px;
+    }
+
+    .product-products {
+        gap: 10px;
+    }
+
+    .info {
+        padding: 40px 15px 0px;
+    }
+
+    .feature {
+        padding: 40px 15px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .circle-circles img {
+        height: 180px;
+        width: 180px;
+    }
+
+    .info {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .feature-features {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1024px) {
+    .circle-circles img:hover {
+        transform: none;
+    }
+
+    .product-products {
+        gap: 35px;
+    }
+
+    .product-products p {
+        width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .circle-circles {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .product-products {
+        gap: 25px;
+    }
+
+    .product-products img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .product-products p {
+        width: 250px;
+    }
+
+    .info {
+        gap: 25px;
+    }
+
+    .info img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .feature-features .f {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .feature-features img {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .circle-circles img {
+        height: 140px;
+        width: 140px;
+    }
+
+    .circle-circles p {
+        padding-top: 15px;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    .product {
+        padding: 0px 15px 20px;
+    }
+
+    .product-products img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .product-products p {
+        max-width: 250px;
+        font-size: 14px;
+    }
+
+    .info {
+        padding: 20px 15px;
+        font-size: 15px;
+    }
+
+    .info img {
+        max-width: 100%;
+    }
+
+    .info .info-text {
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .feature-features .f p {
+        padding: 0 10px;
+        font-size: 14px;
+    }
+}
+
+/* Navbar Section */
+@media (max-width: 1300px) {
+    .navbar {
+        padding: 20px 15px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .hamburger-btn,
+    .offcanvas {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navbar .nav {
+        display: none;
+    }
+
+    .hamburger-btn {
+        display: block;
+    }
+
+    .navbar .logo {
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .offcanvas {
+        width: 300px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        justify-content: space-between;
+        padding: 10px 15px;
+    }
+
+    .offcanvas {
+        width: 250px !important;
+    }
+}
+
+
+/* Footer Section */
+@media (max-width: 991px) {
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px;
+    }
+
+    .footer-column {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer {
+        text-align: center;
+    }
+
+    .footer-column h4 {
+        font-size: 16px;
+    }
+
+    .footer-column p,
+    .footer-column ul {
+        font-size: 12px;
+    }
+
+    .icons1 a {
+        font-size: 16px;
+    }
+}
+
+/*remove bootstrap if responsiveness is not needed and adjust navbar*/
